@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>CONTACTO</title>
+        <script src="js/contacto.js"></script>
+        <link rel="stylesheet" href="css/contacto.css">
+    </head>
+    <body>
+    <div id="contacto">
+        <h1>Contáctanos.</h1>
+        <form class="formulario" action="login.js">
+            Nombre:<br>
+            <input type="text" id="nombre" placeholder="Nombre"><br>
+            País:<br>
+            <input type="text" id="pais" placeholder="País"><br>
+            Correo Electrónico:<br>
+            <input type="text" id="mail" placeholder="Correo Electrónico"><br>
+            Mensaje:<br>
+            <textarea rows="4" cols="50" id="cuerpo"></textarea><br>
+            <input type="button" class="boton" value="Enviar" id="send" onclick="Enviar();">
+        </form>
+        </div>
+    </body>
+</html>

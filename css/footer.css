@@ -1,0 +1,66 @@
+
+hr{
+clear: both;
+height: 50px;
+border: none;
+}
+h5{
+	margin-top: 15px;
+	margin-bottom: 15px;
+font-size: 30px;
+}
+
+footer{
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+	height: 155px;
+	text-align: center;
+
+
+background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+
+}
+
+
+.hv{
+	font-size: 20px;
+	display: inline;
+  margin-left: 50px;
+}
+
+.hv:nth-child(2):hover{
+    color:#3b5998;
+}
+
+.hv:nth-child(3):hover{
+    color:#55acee;
+}
+
+.hv:nth-child(4):hover{
+    color:#bb0000;
+}
+
+.hv:nth-child(5):hover{
+    color:#125688;
+}
+
+.hv:nth-child(6):hover{
+    color:#00e461;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+	.hv{
+		margin-top: 5px;
+		margin-left: 0;
+		display: block;
+	}
+
+
+
+}

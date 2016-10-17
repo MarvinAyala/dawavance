@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+
+
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/contacto.css">
+ 	<script src="js/jquery.js"></script>
+ 	<script src="js/main.js"></script>
+ 	<script src="js/contacto.js"></script>
+</head>
+<body>
+	<header>
+		<div class="menu_bar">
+			<img src="img/logopacman.png" class="logo1">
+			<a href="#" class="bt-menu"><div class="logotipo">
+			</div><span class="icon-menu"></span></a>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="Tematica.html"><span class="icon-newspaper"></span>Tematica</a></li>
+				<li><a href="creadores.html"><span class="icon-users"></span>Creadores</a></li>
+				<li><a href="reglas.html"><span class="icon-clipboard"></span>Reglas</a></li>
+				<li><a href="personajes.html"><span class="icon-users"></span>Personajes</a></li>
+				<li><a href="juego.html"><span class="icon-youtube"></span>Juego</a></li>
+				<li><a href="#"><span class="icon-youtube"></span>Contactanos</a></li>
+				<img src="img/logo.png" class="logo">
+			</ul>
+		</nav>
+	</header>
+	<div>
+		<img id="banner"src="img/tematica.jpg" alt="">
+	</div>
+	<div id="contacto">
+        <h1>Contáctanos.</h1>
+        <form class="formulario" action="login.js">
+            Nombre:<br>
+            <input type="text" id="nombre" placeholder="Nombre"><br>
+            País:<br>
+            <input type="text" id="pais" placeholder="País"><br>
+            Correo Electrónico:<br>
+            <input type="text" id="mail" placeholder="Correo Electrónico"><br>
+            Mensaje:<br>
+            <textarea rows="4" cols="50" id="cuerpo"></textarea><br>
+            <input type="button" value="Enviar" id="send" onclick="Enviar();">
+        </form>
+        </div>
+<hr>
+<footer>
+
+	<div class="footer">
+	
+		<h5>Social Media</h5>
+			<p class="hv"><span class="icon-facebook2"></span> Facebook</p> 
+			<p class="hv"><span class="icon-twitter"></span> Twitter</p>
+			<p class="hv"><span class="icon-youtube2"></span> Youtube</p>
+			<p class="hv"><span class="icon-instagram"></span> Instagram</p>
+			<p class="hv"><span class="icon-spotify"></span> Spotify</p>
+	</div>
+</footer>
+
+</body>
+</html>

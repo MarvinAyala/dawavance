@@ -1,0 +1,64 @@
+
+.per {
+	width: 150px; height: 150px;
+	margin: 12px;
+	border: solid 4px #0431B4;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	left: 50px; top: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: justify;
+	z-index: 1;
+}
+
+.per h1 {
+	font-weight: bold;
+	font-size: .9em;
+	margin: 0px 0px .1em 0px;
+	text-align: center;
+	z-index: 1;
+}
+
+
+.per p {
+	font-size: .7em;
+	text-decoration: none;
+	margin: 0px 0px .1em 0px;
+	text-align: justify;
+	
+}
+
+.datos {
+	padding: 4px;
+	width: 150px;
+	height: 142px;
+	background-color: #0B2161 ;
+	color: white;
+	position: absolute;
+	cursor: pointer;
+	bottom: -119px;
+	left: 0px;
+	font-size: 1em;
+	text-align: justify;
+
+}
+
+.per{
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+
+}
+
+.per .datos{
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+}
+.per .datos:hover{
+	bottom:0px;
+
+}
